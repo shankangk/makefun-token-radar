@@ -1,15 +1,20 @@
-# Token Radar — make.fun token-radar-01
+# makefun-token-radar
 
-[![token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01)
-[![token-radar-01](https://make.fun/badge/token-radar-01-dev.svg)](https://make.fun/bounty/token-radar-01)
-[![token-radar-01](https://make.fun/badge/token-radar-01-final.svg)](https://make.fun/bounty/token-radar-01)
+[![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/shankangk/makefun-token-radar/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/shankangk/makefun-token-radar/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
 
-A token launch radar: it reads a sealed DefiLlama snapshot, ranks every
-pre-token protocol by an implied value, and hands the reader a dashboard
-with a filterable board, a detail view for each protocol, and a concrete
-farm plan for each one.
+A token launch radar: it reads a sealed DefiLlama snapshot, ranks every pre-token protocol by an implied value, and hands the reader a dashboard with a filterable board, a detail view for each protocol, and a concrete farm plan for each one.
 
-Bounty: https://make.fun/bounty/token-radar-01
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input ../input/snapshot.json
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>
 
 ## How it works
 
