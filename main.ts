@@ -1,5 +1,11 @@
 // A working token-radar-01 entry (Node 22, standard library only).
 //
+// Radar-2 entrypoint (this entry): the starter's flow is kept — read the
+// sealed snapshot, score it with lib/model.ts, write board.json, data.js,
+// dashboard, screenshots and dossier.json — and the model it scores with
+// is radar-2, not the starter's radar-1. The program is deterministic:
+// the same snapshot in gives the same bytes out on every run.
+//
 // The program reads the sealed snapshot from /input/snapshot.json (or --input <file|dir>), scores every
 // pre-token protocol with the model in lib/model.ts, writes the ranked board to /output/board.json, and
 // copies this repository's dashboard/ and screenshots/ to /output. Last, it writes /output/dossier.json,
